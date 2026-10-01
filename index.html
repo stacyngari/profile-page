@@ -3,64 +3,165 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Profile</title>
+        <title>Stacy | Software Developer</title>
         <link rel="stylesheet" href="index.css">
     </head>
+
     <body>
-    <header>
+
+    <!-- ==================
+     Navigation
+     ====================== -->
         <nav>
-            <h1>My Profile</h1>
+            <h2>Stacy</h2>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#hobbies"> Hobbies</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    
     <main>
-        <section id="home" class="hero">
-            <div class="hero-text">
+        <!-- ===========================
+            HERO / HOME   
+         ================================ -->
+         <main id="home">
+        <section class="hero">
+            <div class="hero-text"> 
+           <p>Welcome to my profile!</p>
             <h1>Hello, I'm Stacy</h1>
             <h2>Software Developer</h2>
-            <p>Welcome to my profile!</p>
-            <a href="#contact" class="button">Contact Me</a>
+            <p>I am learning software development and building creative projects with code</p>
+            <a href="#view my profile" class="button">view my profile</a>
             </div>
+
             <div class="profile-image">
-                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.0&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" alt="Profile Image"
-            alt ="Profile picture">
+                <img src= "./images/WhatsApp Image 2026-09-29 at 8.25.48 AM.jpeg" alt ="Stacy's profie photo"
+                    width="1200"
+                    height="500"
+                       >
             </div>
         </section>
-        <section id="about"> 
+         </main>
+        <!-- ===================
+         ABOUT ME
+         ==================== -->
+        <section class="about" id="about">
+            <div>"about-text">
             <h2>About Me</h2>
-            <p>I am a software engineering student interested in web development, programming and technology.</p>
+            <p>Hi, I'm Stacy. I am a software engineering student intrested in web development, programming and technology.</p>
+<div class="about-cards">
+<article>
+        <h3>Curious</h3>
+        <p>I love discovering new things, learning new code and understandining how technology work.</p>
+    </article>
+    <article>
+        <h3>Motivated</h3>
+        <p>I am willing to take on new challenges, learn from my experinces and improve my skills.</p>
+    </article>
+    <article>
+        <h3>Creative</h3>
+        <p>I enjoy learning new things, turning ideas into something meaningful and finding new ways to solve problems.</p>
+  </article>
+</div>
+<div class="about-image">
+                <img src= "./images/WhatsApp Image 2026-09-29 at 8.25.48 AM.jpeg" alt ="About me"
+                width="1200"
+                height="500"
+                >
+                </div>
         </section>
-        <section id="skills">
+        <!-- ========================
+              SKILLS 
+         ========================= -->
+        <section class="skills" id="skills">
             <h2>My Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Git and GitHub</li>
-            </ul>
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Building the structure of websites.</p> 
+                </div>
+                <div class="skill">             
+                 <h3>CSS</h3>
+                 <p>Creating attractive and resposive design.</p>
+                </div>
+                <div class="skill">
+                    <h3>Javascript</h3>
+                    <p>Adding functionality and interactivity</p>
+                </div>
+                <div class="skill">
+                    <h3>Git & Github</h3>
+                 <p>Managing and sharing software projects.</p>
+            </div>
         </section>
-        <section id="projects">
-            <h2>My Projects</h2>
-            <article>
-                <h3>Travel Blog</h3>
-                <p>A simple website created using HTML, CSS</p>
-            </article>
-            <article>
-                <h3>Javascript Project</h3>
-                <p>A Project demonstrating JavaScript programming.</p>
-                </article>
-            <p>Email: stacynari62@gmail.com</p>
-        </section>
-        </main>
+        <!-- ======================
+          PROJECTS
+        ========================= -->
+        <section  class="projects" id="projects">
+            <h2>My Projects</h2> 
+            <div class="project-container">
+                <div class="project">
+                <img src="./images/jakub-zerdzicki-bWVBCDtTRJI-unsplash.jpg" alt="profile website" 
+                width="1200" 
+                height="500"
+                >
+    <div class="project-content">
+        <h3>Profile Website</h3>
+        <p>A personal website created using HTML and CSS.</p>
+        <a href="#" class="button">View Project</a>
+        </div>
+        <div class="project">
+            <img src="./images/juanjo-jaramillo-mZnx9429i94-unsplash.jpg" alt="Javascript project"
+            width="1200"
+            height="500"
+            >
+            <div class="project-content">
+        <h3>Javascript Project</h3>
+        <p>A Javascript project created to practice programming logic and interactivity.</p>
+        <a href="#" class="button">View Project</a>
+    </div>
+    </div>
+    <div class="project">
+        <img src="./images/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg" alt="Travel Blog Project"
+        width="1200"
+        height="500"
+        >
+               <div class="project-content">
+                 <h3>Travel Blog</h3>
+                <p>A colorful travel blog website created using HTML and CSS.</p>
+                <a href="#" class="button">View Project</a>
+                </div>
+                </div>
+                </div>
+            </section>
+            <!-- ==========================
+             HOBBIES
+            =========================== -->
+            <section class="hobbies" id="hobbies">
+                    <div class="hobbies-container">
+               <div class="hobby"> Reading</div>
+                <div class="hobby">Music</div>
+                <div class="hobby">Travelling</div>
+                <div class="hobby">Coding</div>
+                <div class="hobby">Watchind Movies</div>
+                </div>
+                </section>
+                    <!-- ====================
+                     CONTACT
+                     =====================-->
+                     <section class="contact" id="contact"> 
+                        <h2>Contact Me</h2>
+                        <p>Have a project in mind, a question, or just want to say hi? I'd love to hear from you.</p>
+                        <p>Email:href="mailto:stacyngari62@gmail.com"</p>
+                        <p>Github: github.com/stacynagari</p>
+                     </section>
+        <!-- ===================
+         FOOTER
+         ================== =-->
         <footer>
-            <p>&copy; 2026 Stacy. All rights reserved.</p>
-        </footer>
-        <script src="index.js"></script> 
+            <p>&copy; 2026 Stacy. Built with HTML, CSS and Javascript.</p>
+        </footer> 
     </body>
 </html>
